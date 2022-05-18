@@ -1,2 +1,4 @@
+# excluded file #
 inputf.txt
 outputf.txt
+*.exe
