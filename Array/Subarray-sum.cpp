@@ -51,17 +51,26 @@ void subArraySum1(vector<int>&v)
 // using Kadane Algo O(n)
 void subArraySum3(vector<int>&v)
 {
-	int csum=0,msum=INT_MIN;
+	int csum=0,msum=0;
 	for(auto x:v)
 	{
 		csum=csum+x;
 		if(csum<x)csum=x;
-		if(msum<csum)msum=csum;
+		msum=max(msum,csum);
 	}
+
+	// for(auto x:v)
+	// {
+	// 	csum=csum+x;
+	// 	if(csum<0)csum=0;
+	// 	msum=max(csum,msum);
+	// }
+	
 	cout<<msum;
+
 }
 int main()
 {
-vector<int> v={3,1,-2,5,-4};
+vector<int> v={3,1,-4,5,-4};
 subArraySum3(v);
 }
