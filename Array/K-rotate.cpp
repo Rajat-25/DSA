@@ -14,9 +14,9 @@ void kRotate(vector<int>&arr,int k)
     reverse(arr,d,n-1);
     reverse(arr,0,n-1);
 }
+
 int main()
 {
-
  vector<int> arr={1,2,3,4,5,6,7};
 	kRotate(arr,3);
 	for(auto x:arr)
