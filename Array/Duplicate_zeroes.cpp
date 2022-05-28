@@ -5,9 +5,8 @@ using namespace std;
 
 void duplicateZeros(vector<int>& arr) 
 {
-        int n=arr.size(),ct=0;
         vector<int>temp;
-        for(int i=0;i<n;i++)
+        for(int i=0;i<arr.size();i++)
         {
             if(arr[i]==0)
             {
