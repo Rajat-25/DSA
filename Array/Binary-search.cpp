@@ -16,8 +16,7 @@ int binarySearch(vector<int>&v,int key,int n)
 }
 int main()
 {
-vector<int> v={-2,1,6,6,8,14,22,30};
-cout<<sizeof(v)<<"\n";
+vector<int> v={1,1,1,1,1,1,1};
 int key;
 cin>>key;
 int idx=binarySearch(v,key,v.size());
