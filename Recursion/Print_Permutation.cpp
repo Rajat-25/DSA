@@ -2,6 +2,23 @@
 using namespace std;
 # define ll long long
 # define mod 1000000007
+
+//Approach 2
+
+
+// void solve(string str,int i)
+// {
+//     if(i==str.size()){
+//         cout<<str<<"\n";
+//         return;
+//     }
+//      for(int j=i;j<str.size();j++)
+//         {
+//             swap(str[i],str[j]);
+//             solve(str,i+1);
+//             swap(str[i],str[j]);
+//         }   
+// }
 void solve(string str,string ans)
 {
 	if(str=="")

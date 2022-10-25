@@ -23,7 +23,7 @@ int main()
 {
 	int row,col;
 	cin>>row>>col;
-	vector<vector<int>>v(6,vector<int>(7));
+	vector<vector<int>>v(row,vector<int>(col));
 	for(int i=0;i<row;i++)
 	{
 		for(int j=0;j<col;j++) cin>>v[i][j];
