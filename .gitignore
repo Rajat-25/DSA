@@ -1,6 +1,13 @@
 # excluded file #
-inputf.txt
-outputf.txt
+-inputf.txt
+-outputf.txt
 *.exe
-demo.cpp
+_demo.cpp
+_demo.js
+_demo.java
+_temp.cpp
+_temp.js
+_temp.java
 .vscode
+.cph
+*.class

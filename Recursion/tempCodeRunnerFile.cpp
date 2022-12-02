@@ -1,8 +1,3 @@
-
-    // Base(Base &x)
-    // {
-    //     id=x.id;
-    //     rNo=x.rNo;
-    //     price=x.price;
-    //     // name=x.name;
-    // }
+   // n->prev=curr;
+        // curr->next=n;
+        // head=n;
